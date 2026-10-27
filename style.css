@@ -115,7 +115,7 @@ h2 {
   padding-bottom: 4px;
   margin: 0 0 18px;
 }
-section > p { margin: 0 0 12px; }
+section > p { margin: 0 0 12px; font-size: 0.97rem; }
 
 /* Papers */
 .paper { margin-bottom: 30px; }
@@ -123,7 +123,7 @@ section > p { margin: 0 0 12px; }
 .paper h3 a { color: var(--text); }
 .paper h3 a:hover { color: var(--link); }
 .meta { color: var(--muted); font-size: 0.93rem; margin: 0 0 6px; }
-.summary { margin: 0 0 6px; }
+.summary { margin: 0 0 6px; font-size: 0.97rem; }
 .links { display: inline-block; margin: 0 16px 0 0; font-size: 0.93rem; }
 
 details { display: inline; }
@@ -146,6 +146,7 @@ details p {
   margin: 0 0 10px;
   padding-left: 14px;
   border-left: 2px solid var(--rule);
+  font-size: 0.97rem;
 }
 
 /* Experience and education */
@@ -159,7 +160,8 @@ details p {
 }
 .entry h3 { font-size: 1rem; font-weight: 600; margin: 0; line-height: 1.4; }
 .when { color: var(--muted); font-size: 0.9rem; white-space: nowrap; font-variant-numeric: tabular-nums; }
-.entry p { margin: 2px 0 0; }
+.entry p { margin: 2px 0 0; font-size: 0.97rem; }
+#experience .entry { margin-bottom: 8px; }
 
 /* Skills */
 .skills {
@@ -167,6 +169,7 @@ details p {
   grid-template-columns: max-content 1fr;
   gap: 8px 20px;
   margin: 0;
+  font-size: 0.97rem;
 }
 .skills dt { font-weight: 600; }
 .skills dd { margin: 0; }
